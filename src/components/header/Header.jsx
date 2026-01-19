@@ -18,7 +18,7 @@ import { NavLink } from "react-router-dom"
 const Header = () => {
     return (
         <>
-            <header className="z-10">
+            <header className="fixed top-0 left-0 w-full bg-white z-50 shadow">
                 <div className="bg-black ">
                     <div className="container mx-auto  py-4 flex items-cemter justify-between ">
             <div className="flex items-center gap-2">
